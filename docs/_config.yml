@@ -30,7 +30,7 @@ twitter_username: John
 github_username:  johnpink11 
 
 # Build settings
-remote-theme: pages-themes/hacker@v0.2.0 
+theme: minimal 
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
