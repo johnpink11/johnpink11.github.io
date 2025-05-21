@@ -21,16 +21,14 @@
 title: John's Space 
 email: jixuezhanggg@gmail.com 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Where there is a will, there is a way.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://johnpink11.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: John 
 github_username:  johnpink11 
 
 # Build settings
-remote_theme: pages-themes/hacker@v0.2.0
+theme: minima
 
 
 plugins:
@@ -55,3 +53,12 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+defaults:
+  - 
+    scopes:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
