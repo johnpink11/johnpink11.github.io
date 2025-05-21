@@ -1,0 +1,74 @@
+/* assets/css/shared.css */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: #0366d6;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+
+ul.post-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.post-list li {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  transition: box-shadow 0.2s;
+}
+
+ul.post-list li:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+ul.post-list a {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #333;
+  text-decoration: none;
+}
+
+ul.post-list a:hover {
+  color: #007acc;
+}
+
+.post-date {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+footer {
+  font-size: 0.9rem;
+  color: #aaa;
+}
