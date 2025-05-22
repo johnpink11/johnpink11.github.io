@@ -1,22 +1,14 @@
-<!-- _layouts/home.html -->
 <!DOCTYPE html>
 <html lang="zh">
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }} | {{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/shared.css' | relative_url }}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
 </head>
-<body>
-  <header>
-    <h1>{{ site.title }}</h1>
-    <p>{{ site.description }}</p>
-    <nav>
-      <a href="{{ '/' | relative_url }}">🏠首页</a>
-      <a href="{{ '/about' | relative_url }}">👤 关于我</a>
-    </nav>
-    <hr>
-  </header>
 
+<body>
+  {%- include index_header.html -%}
 
   <main>
     {{ content }}  <!-- 来自 index.md 的正文内容 -->
@@ -29,10 +21,6 @@
     {% endfor %}
     </ul>
 
-  <footer>
-    <hr>
-    <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} | Powered by Jekyll</p>
-  </footer>
+    {%- include footer.html -%}
 </body>
 </html>
-

@@ -8,14 +8,7 @@
 
 </head>
 <body>
-  <header>
-    <h1>{{ site.title }}</h1>
-    <p>{{ site.description }}</p>
-    <nav>
-      <a href="{{ '/' | relative_url }}">🏠 首页</a>
-      <a href="{{ '/about' | relative_url }}">👤 关于我</a>
-    </nav>
-  </header>
+    {%- include index_header.html -%}
 
   <main>
     <h2>{{ page.title }}</h2>
@@ -32,8 +25,9 @@
     </ul>
   </main>
 
-  <footer>
+  <!-- <footer>
     <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} | Powered by Jekyll</p>
-  </footer>
+  </footer> -->
+  {%- include footer.html -%}
 </body>
 </html>

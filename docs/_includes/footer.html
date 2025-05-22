@@ -1,0 +1,40 @@
+<!-- Font Awesome (社交图标库) -->
+<link id="fa-stylesheet" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
+
+<footer class="site-footer h-card">
+  <!-- 网站首页 URL，用于 h-card -->
+  <data class="u-url" value="{{ '/' | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <!-- 页脚内容列 -->
+    <div class="footer-col-wrapper">
+      <!-- 作者信息列 -->
+      <div class="footer-col">
+        {% if site.author %}
+        <ul class="contact-list">
+          {% if site.author.name %}
+            <li class="p-name">{{ site.author.name | escape }}</li>
+          {% endif %}
+          {% if site.author.email %}
+            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          {% endif %}
+        </ul>
+        {% endif %}
+      </div>
+
+      <!-- 网站描述列 -->
+      <div class="footer-col">
+        {% if site.description %}
+          <p>{{ site.description | escape }}</p>
+        {% endif %}
+      </div>
+    </div>
+
+    <!-- 社交图标 -->
+    <div class="social-links">
+      {% include social.html %}
+    </div>
+
+  </div>
+</footer>
