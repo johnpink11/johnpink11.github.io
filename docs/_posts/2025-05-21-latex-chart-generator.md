@@ -10,7 +10,7 @@ mathjax: true
 所以, 我开发了一个可以将`pandas`的`Dataframe`转化为`HTML`表格的工具。我的思路是这样的
 
 $$
-\text{Dataframe} \Longrightarrow \text{csv文件} \Longrightarrow \text{tex文件}
+\text{Dataframe} \Longrightarrow \text{csv文件} \Longrightarrow \text{html文件}
 $$
 
 当然该方法基本还是基于`pandas.DataFrame`的`to_html()`方法, 只不过我在这个html中添加了样式控制。只不过现在还没有开放用户自定义样式, 后续可以开发使得用户可以自定义字体、表格的样式等。

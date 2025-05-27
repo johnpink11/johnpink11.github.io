@@ -16,5 +16,5 @@ If we let the likelihood function closer to 1, we get better model to fit our sa
 The procedure to maximize the likelihood function is called *MLE*. 
 
 $$
-\max_{\arg \theta} L(\theta;x)
+\arg\max_{\theta} L(\theta;x)
 $$
