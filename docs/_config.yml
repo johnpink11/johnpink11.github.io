@@ -30,9 +30,11 @@ url: "https://johnpink11.github.io" # the base hostname & protocol for your site
 twitter_username: John 
 github_username:  johnpink11 
 
-social_links:
-  - { platform: github,  user_url: "https://github.com/johnpink11" }
-  - { platform: twitter, user_url: "https://twitter.com/yourhandle" }
+minima:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/johnpink11" }
+    - { platform: zhihu, user_url: "https://www.zhihu.com/people/su-zui-de-you-zi" }
+    - { platform: wechat, user_url: "https://www.zhihu.com/people/su-zui-de-you-zi" }
 
 # Build settings
 remote_theme: jekyll/minima@1e8a445
