@@ -34,7 +34,6 @@ minima:
   social_links:
     - { platform: github,  user_url: "https://github.com/johnpink11" }
     - { platform: zhihu, user_url: "https://www.zhihu.com/people/su-zui-de-you-zi" }
-    - { platform: wechat, user_url: "https://www.zhihu.com/people/su-zui-de-you-zi" }
 
 # Build settings
 remote_theme: jekyll/minima@1e8a445
