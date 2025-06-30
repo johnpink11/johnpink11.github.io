@@ -14,14 +14,14 @@ categories: math
 
 
 ## 二、证明题
-1. $X$是Hilbert空间, $\{ e_{\alpha} \}_{\alpha\in\Lambda}$ 是$X$中的正交规范集, 求证: $\forall x\in X$ 
+1. $X$是Hilbert空间, $\\{ e_{\alpha} \\}_{\alpha\in\Lambda}$ 是$X$中的正交规范集, 求证: $\forall x\in X$ 
 $$
 ||x-\sum_{\alpha\in \Lambda} \langle x, e_{\alpha} \rangle e_{\alpha}||^2 + \sum_{\alpha\in\Lambda}|\langle x, e_{a} \rangle |^2 =||x||^2
 $$
 
 2. 证明一致有界定理(共鸣定理)
 
-3. 设$X, Y$是Banach空间, $A_{n}\in \mathscr{L}(X, Y)$, $\forall x\in X$, 序列$\{ A_{n}x \}$在$Y$中收敛, 证明存在$A\in \mathscr{L}(X, Y)$满足:
+3. 设$X, Y$是Banach空间, $A_{n}\in \mathscr{L}(X, Y)$, $\forall x\in X$, 序列$\\{ A_{n}x \\}$在$Y$中收敛, 证明存在$A\in \mathscr{L}(X, Y)$满足:
 $$
 \lim_{ n \to \infty } A_{n}x= Ax, \quad(\forall x\in X) \quad \quad ||A||\le\liminf_{ n \to \infty } ||A_{n}||
 $$
