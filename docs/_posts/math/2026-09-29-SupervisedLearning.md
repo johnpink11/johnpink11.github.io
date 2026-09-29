@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Supervised Learning"
-date: 2025-05-18
+date: 2026-09-29
 categories: math
 ---
 
