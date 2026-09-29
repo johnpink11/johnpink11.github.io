@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "似然函数(Likelihood Function)"
+title: "Supervised Learning"
 date: 2025-05-18
 categories: math
 ---
