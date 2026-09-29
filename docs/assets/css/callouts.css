@@ -1,0 +1,63 @@
+.page-content .callout {
+  --callout-color: #2563eb;
+  --callout-background: #eff6ff;
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--callout-color);
+  border-left-width: 4px;
+  border-radius: 0.5rem;
+  background: var(--callout-background);
+  color: #1f2937;
+  font-size: 1rem;
+  font-style: normal;
+  letter-spacing: normal;
+  overflow-wrap: break-word;
+}
+
+.callout[data-callout="definition"] {
+  --callout-color: #0369a1;
+  --callout-background: #f0f9ff;
+}
+
+.callout[data-callout="example"] {
+  --callout-color: #7c3aed;
+  --callout-background: #f5f3ff;
+}
+
+.callout[data-callout="tip"],
+.callout[data-callout="success"] {
+  --callout-color: #047857;
+  --callout-background: #ecfdf5;
+}
+
+.callout[data-callout="warning"],
+.callout[data-callout="caution"] {
+  --callout-color: #92400e;
+  --callout-background: #fffbeb;
+}
+
+.callout[data-callout="danger"],
+.callout[data-callout="error"],
+.callout[data-callout="important"] {
+  --callout-color: #b91c1c;
+  --callout-background: #fef2f2;
+}
+
+.callout > .callout-title {
+  margin-bottom: 0.5rem;
+  color: var(--callout-color);
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.callout > :last-child {
+  margin-bottom: 0;
+}
+
+/* Let wide derivations scroll inside the article on small screens. */
+.post-content .MathJax_Display,
+.post-content .mjx-chtml.MJXc-display {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
